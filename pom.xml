@@ -5,22 +5,10 @@
   <artifactId>01-Maven-App</artifactId>
   <packaging>war</packaging>
   <version>1.0-RELEASE</version>
-  <name>01-Maven-App Maven Webapp</name>
+  <name>irctc_app</name>
   <url>http://maven.apache.org</url>
 
-<distributionManagement>  
-	<repository>
-		<id>nexus</id>
-		<name>Ashok IT Releases Nexus Repo</name>
-		<url>http://13.235.115.214:8081/repository/ashokit-release-repository/</url>
-	</repository>
-	
-	<snapshotRepository>
-		<id>nexus</id>
-		<name>Ashok IT Snapshots Nexus Repo</name>
-		<url>http://13.235.115.214:8081/repository/ashokit-snapshot/</url>
-	</snapshotRepository>	
-</distributionManagement>
+
 
 
   <dependencies>
@@ -32,6 +20,6 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>01-Maven-App</finalName>
+    <finalName>irctc_app</finalName>
   </build>
 </project>
